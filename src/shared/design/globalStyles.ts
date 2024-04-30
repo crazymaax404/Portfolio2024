@@ -10,6 +10,8 @@ export const GlobalStyles = createGlobalStyle`
 body {
   background: ${(props) => props.theme.colors.background};
   color: ${(props) => props.theme.colors.text};
+  padding-left: ${(props) => props.theme.spacings.giga_96};
+  padding-right: ${(props) => props.theme.spacings.giga_96};
   transition: all 0.25s ease-in-out;
 }
 `;
