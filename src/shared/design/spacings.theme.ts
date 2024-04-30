@@ -1,13 +1,13 @@
 import { ISpacings } from "./theme.interfaces";
 
 export const spacings: ISpacings = {
-  small: 4,
-  medium: 8,
-  large: 16,
-  x_large: 24,
-  xx_large: 32,
-  jumbo: 48,
-  mega: 64,
-  giga: 96,
-  tera: 128,
+  small_4: '4px',
+  medium_8: '8px',
+  large_16: '16px',
+  x_large_24: '24px',
+  xx_large_32: '32px',
+  jumbo_48: '48px',
+  mega_64: '64px',
+  giga_96: '96px',
+  tera_128: '128px',
 };

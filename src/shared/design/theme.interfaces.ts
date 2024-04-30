@@ -1,7 +1,7 @@
 export interface IBorders {
-  thin: number;
-  standard: number;
-  thick: number;
+  thin_4: number;
+  standard_6: number;
+  thick_8: number;
 }
 
 export interface IColors {
@@ -19,15 +19,15 @@ export interface IColors {
 }
 
 export interface ISpacings {
-  small: number;
-  medium: number;
-  large: number;
-  x_large: number;
-  xx_large: number;
-  jumbo: number;
-  mega: number;
-  giga: number;
-  tera: number;
+  small_4: string;
+  medium_8: string;
+  large_16: string;
+  x_large_24: string;
+  xx_large_32: string;
+  jumbo_48: string;
+  mega_64: string;
+  giga_96: string;
+  tera_128: string;
 }
 
 export interface ITypographies {

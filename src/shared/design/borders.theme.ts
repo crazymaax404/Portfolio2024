@@ -1,7 +1,7 @@
 import { IBorders } from "./theme.interfaces";
 
 export const borders: IBorders = {
-  thin: 4,
-  standard: 6,
-  thick: 8,
+  thin_4: 4,
+  standard_6: 6,
+  thick_8: 8,
 };
